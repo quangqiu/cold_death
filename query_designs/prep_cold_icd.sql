@@ -1,4 +1,8 @@
 
+
+select * into #YearlyDateBuckets FROM Projects.ProjectD2D4B4.dbo.YearlyDateBuckets
+
+
 SELECT
 GrouperSubquery3.* INTO #ColdRelatedICD
 FROM
